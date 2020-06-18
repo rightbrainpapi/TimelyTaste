@@ -45,6 +45,11 @@
 .timely-taste-logo {
 	width: 10rem;
 }
+.NavBar {
+	height: 20rem;
+	padding-top: 2rem;
+	background-color: white;
+}
 nav ul {
 	display: inline-block;
 	margin: 0;
