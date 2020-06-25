@@ -27,6 +27,12 @@ function NavBar() {
 					<li>
 						<a href="www.google.com">Contact Us</a>
 					</li>
+					<li>
+						<a href="www.google.com">Registration</a>
+					</li>
+					<li>
+						<a href="www.google.com">Sign In</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
