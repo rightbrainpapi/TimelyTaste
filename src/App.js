@@ -1,5 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar";
+// import { BrowserRouter as Router } from "react-router-dom";
+// import Route from "react-router-dom/Route";
 
 import "./App.css";
 
@@ -7,6 +9,7 @@ function App() {
 	return (
 		<div className="App">
 			<NavBar />
+
 			<header className="App-header">
 				<p>
 					Edit <code>src/App.js</code> and save to reload.

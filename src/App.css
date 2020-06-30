@@ -1,3 +1,6 @@
+* {
+	color: white;
+}
 .App {
 	text-align: center;
 }
@@ -43,11 +46,46 @@
 /* /////////////////////////////////////////// */
 /* /////////////////////////////////////////// */
 .timely-taste-logo {
-	width: 10rem;
+	width: 20rem;
+	background-color: #10181e;
+	border-radius: 50%;
+	height: 130px;
+	width: 130px;
 }
-.NavBar {
-	height: 20rem;
-	padding-top: 2rem;
+
+.socialMediaBar {
+	width: 100vw;
+	height: 8vh;
+	background-color: #e4b742;
+	display: flex;
+	align-items: center;
+}
+.contact {
+	width: 50vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* justify-content: space-between; */
+	background-color: black;
+}
+
+.socialMediaLogo {
+	width: 50vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* justify-content: space-between; */
+	background-color: blue;
+}
+
+.navBar {
+	width: 100vw;
+	height: 8vh;
+	background-color: #3e4547;
+}
+.NavBarContainer {
+	/* height: 20rem; */
+	/* padding-top: 2rem; */
 	background-color: white;
 }
 nav ul {
@@ -107,4 +145,32 @@ ul li ul li {
 
 ul li:hover ul li {
 	display: block;
+}
+/* /////////////////////////// */
+login {
+	padding: 50px;
+}
+
+.btn,
+.fb {
+	background-color: rgba(36, 41, 44, 0.9);
+	border: none;
+	width: 100%;
+	text-align: center;
+	padding: 14px;
+	border-radius: 4px;
+	color: white;
+}
+
+.fb {
+	background-color: #33599d;
+}
+
+.input {
+	background: rgba(241, 241, 241, 0.7);
+	width: 100%;
+	padding: 14px;
+	border-radius: 4px;
+	border: 0;
+	color: #3e3e3e;
 }
