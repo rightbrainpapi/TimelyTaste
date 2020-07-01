@@ -148,13 +148,44 @@
 	align-items: center;
 	justify-content: center;
 	justify-content: space-evenly;
-	background-color: black;
+	/* background-color: black; */
+}
+
+.navBottomLeft > h1 > a {
+	text-decoration: none;
 }
 .menuOptionsLeft {
 	display: flex;
 	align-self: center;
 	/* align-items: center;
 	justify-content: center; */
+}
+/* ///////////////////////////////////////////// */
+.navBottomRight {
+	width: 50vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* justify-content: space-between; */
+	/* background-color: red; */
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	padding-top: 5px;
+}
+
+.calendarContainer,
+.shoppingCartContainer {
+	width: 33%;
+	display: flex;
+	/* background-color: cadetblue; */
+	justify-content: space-around;
+}
+
+.shoppingCartContainer {
+	padding-right: 15px;
 }
 
 nav ul {

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 // import { BrowserRouter as Router } from "react-router-dom";
 // import "./NavBar.css";
-import { BrowserRouter as Router } from "react-router-dom";
-import Route from "react-router-dom/Route";
+// import { BrowserRouter as Router } from "react-router-dom";
+// import Route from "react-router-dom/Route";
 import { Icon } from "react-icons-kit";
 import { phone } from "react-icons-kit/icomoon/phone";
 
@@ -10,6 +10,11 @@ import { phone } from "react-icons-kit/icomoon/phone";
 import { instagram } from "react-icons-kit/fa/instagram";
 import { facebookSquare } from "react-icons-kit/fa/facebookSquare";
 import { twitterSquare } from "react-icons-kit/fa/twitterSquare";
+
+// icons for bottom nav
+import { calendar } from "react-icons-kit/fa/calendar";
+import { shoppingCart } from "react-icons-kit/fa/shoppingCart";
+import { search } from "react-icons-kit/fa/search";
 
 class NavBar extends Component {
 	render() {
@@ -66,7 +71,27 @@ class NavBar extends Component {
 						</h1>
 					</div>
 
-					<div className="navBottomRight"></div>
+					<div className="navBottomRight">
+						<div className="calendarContainer">
+							<div className="calendarIcon" style={{ width: 50, height: 50 }}>
+								<Icon size={"100%"} icon={calendar} />
+							</div>
+							<h1>Book a Table</h1>
+						</div>
+
+						<div className="shoppingCartContainer">
+							<div className="shoppingCart" style={{ width: 50, height: 50 }}>
+								<Icon size={"100%"} icon={shoppingCart} />
+							</div>
+							<h1>2 items - $20.89</h1>
+						</div>
+
+						<div className="searchContainer">
+							<div className="search" style={{ width: 50, height: 50 }}>
+								<Icon size={"100%"} icon={search} />
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		);
