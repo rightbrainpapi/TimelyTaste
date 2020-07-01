@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada&display=swap");
+
 * {
 	color: white;
+	font-family: "Andada", serif;
+	font-size: 24px;
 }
 .App {
 	text-align: center;
@@ -45,49 +49,114 @@
 /* /////////////Main Styling////////////////// */
 /* /////////////////////////////////////////// */
 /* /////////////////////////////////////////// */
-.timely-taste-logo {
-	width: 20rem;
-	background-color: #10181e;
-	border-radius: 50%;
-	height: 130px;
-	width: 130px;
-}
 
-.socialMediaBar {
-	width: 100vw;
-	height: 8vh;
-	background-color: #e4b742;
-	display: flex;
-	align-items: center;
-}
-.contact {
-	width: 50vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	/* justify-content: space-between; */
-	background-color: black;
-}
-
-.socialMediaLogo {
-	width: 50vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	/* justify-content: space-between; */
-	background-color: blue;
-}
-
-.navBar {
-	width: 100vw;
-	height: 8vh;
-	background-color: #3e4547;
-}
 .NavBarContainer {
 	/* height: 20rem; */
 	/* padding-top: 2rem; */
 	background-color: white;
 }
+
+/* ///////////////////////////////////////////// */
+/* ///////////////////////////////////////////// */
+/* //////////////////Nav Top//////////////////// */
+/* ///////////////////////////////////////////// */
+/* ///////////////////////////////////////////// */
+.navTopContainer {
+	width: 100vw;
+	height: 14vh;
+	background-color: #f0a832;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.navTopLeft {
+	width: 33vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	/* background-color: black; */
+}
+
+.navTopRight {
+	width: 33vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* justify-content: space-between; */
+	/* background-color: blue; */
+}
+
+/* .dropDownContainer {
+
+} */
+
+.logo {
+	display: flex;
+	align-items: center;
+	padding-top: 5px;
+}
+
+.dropdown {
+	background-color: coral;
+	width: 195px;
+	height: 45px;
+	border-radius: 25px;
+	border: none;
+}
+/* ///////////////////////////////////////////// */
+/* ///////////////////////////////////////////// */
+/* //////////////////Timely Logo//////////////////// */
+/* ///////////////////////////////////////////// */
+/* ///////////////////////////////////////////// */
+
+/* .timelyTasteLogo {
+	background-color: darkgreen;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	top: 50%;
+} */
+
+.timely-taste-logo {
+	/* width: 20rem; */
+	/* background-color: #10181e; */
+	border-radius: 50%;
+	height: 10rem;
+	width: 10rem;
+	position: relative;
+	top: 50%;
+}
+
+/* ///////////////////////////////////////////// */
+/* ///////////////////////////////////////////// */
+/* ///////////////Nav Bottom//////////////////// */
+/* ///////////////////////////////////////////// */
+/* ///////////////////////////////////////////// */
+
+.navBottomContainer {
+	width: 100vw;
+	height: 14vh;
+	background-color: #0055a3;
+	border-top: 5px solid white;
+	display: flex;
+	/* align-items: center; */
+}
+.navBottomLeft {
+	width: 50vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-evenly;
+	background-color: black;
+}
+.menuOptionsLeft {
+	display: flex;
+	align-self: center;
+	/* align-items: center;
+	justify-content: center; */
+}
+
 nav ul {
 	display: inline-block;
 	margin: 0;
