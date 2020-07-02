@@ -6,7 +6,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Route from "react-router-dom/Route";
 import "./App.css";
 //////////////////////////////////////////
-import Hero from "./components/Hero";
+// import Hero from "./components/Hero";
+import Home from "./components/Home";
 
 function App() {
 	return (
@@ -19,7 +20,7 @@ function App() {
 						path="/"
 						exact={true}
 						render={() => {
-							return <Hero></Hero>;
+							return <Home></Home>;
 						}}
 					></Route>
 					<Route
