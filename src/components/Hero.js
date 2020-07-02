@@ -12,7 +12,9 @@ class Hero extends Component {
 				<div className="heroTextContainer">
 					<h1>TIMELY TASTE</h1>
 					<h2>A Modern Virgin Islands Restaurant Ordering Service</h2>
-					<button>Explore Now</button>
+					<button>
+						<a href="#content-area">Explore Now</a>
+					</button>
 				</div>
 			</div>
 		);

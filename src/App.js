@@ -8,26 +8,27 @@ import "./App.css";
 //////////////////////////////////////////
 // import Hero from "./components/Hero";
 import Home from "./components/Home";
+import RestaurantsGallery from "./components/RestaurantsGallery";
 
 function App() {
 	return (
 		<div className="App">
 			<NavBar />
 
-			<header className="App-header">
+			<header>
 				<Router>
 					<Route
 						path="/"
 						exact={true}
 						render={() => {
-							return <Home></Home>;
+							return <Home />;
 						}}
 					></Route>
 					<Route
 						path="/restaurants"
 						exact={true}
 						render={() => {
-							return <h1>Restaurants</h1>;
+							return <RestaurantsGallery />;
 						}}
 					></Route>
 
