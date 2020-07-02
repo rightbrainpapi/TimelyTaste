@@ -5,6 +5,8 @@ import NavBar from "./components/NavBar";
 import { BrowserRouter as Router } from "react-router-dom";
 import Route from "react-router-dom/Route";
 import "./App.css";
+//////////////////////////////////////////
+import Hero from "./components/Hero";
 
 function App() {
 	return (
@@ -12,15 +14,12 @@ function App() {
 			<NavBar />
 
 			<header className="App-header">
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
 				<Router>
 					<Route
 						path="/"
 						exact={true}
 						render={() => {
-							return <h1>Welcome</h1>;
+							return <Hero></Hero>;
 						}}
 					></Route>
 					<Route
@@ -39,14 +38,6 @@ function App() {
 						}}
 					></Route>
 				</Router>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
 			</header>
 		</div>
 	);

@@ -139,6 +139,7 @@
 	height: 14vh;
 	background-color: #0055a3;
 	border-top: 5px solid white;
+	border-bottom: 1px solid white;
 	display: flex;
 	/* align-items: center; */
 }
@@ -160,7 +161,7 @@
 	/* align-items: center;
 	justify-content: center; */
 }
-/* ///////////////////////////////////////////// */
+
 .navBottomRight {
 	width: 50vw;
 	display: flex;
@@ -188,7 +189,26 @@
 	padding-right: 15px;
 }
 
-nav ul {
+/* ///////////////////////////////////////////// */
+/* ///////////////////////////////////////////// */
+/* //////////////////////Hero/////////////////// */
+/* ///////////////////////////////////////////// */
+/* ///////////////////////////////////////////// */
+
+.heroContainer {
+	width: 100vw;
+	height: 100vh;
+	background-color: cornsilk;
+}
+
+.heroImage {
+	height: 75vh;
+	/* background-color: green; */
+	width: 100vw;
+	object-fit: cover;
+}
+
+/* nav ul {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
@@ -245,9 +265,9 @@ ul li ul li {
 
 ul li:hover ul li {
 	display: block;
-}
+} */
 /* /////////////////////////// */
-login {
+/* login {
 	padding: 50px;
 }
 
@@ -273,4 +293,4 @@ login {
 	border-radius: 4px;
 	border: 0;
 	color: #3e3e3e;
-}
+} */
